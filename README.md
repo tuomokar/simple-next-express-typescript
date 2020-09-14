@@ -21,3 +21,5 @@ The project uses the default tsconfig created by Next.js.
 A couple of ways to fix the issue would be:
   - Add `downlevelIteration` to the tsconfig
   - Change that line of code to `Array.from(new Set([...sharedFiles, ...pageFiles]))` (this is transpiled a little differently by TypeScript, compared to simply using spread)
+  
+Issue regarding this can be found from here: https://github.com/vercel/next.js/issues/17094
