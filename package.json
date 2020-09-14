@@ -1,8 +1,7 @@
 {
-  "name": "next-express-typescript-2",
+  "name": "next-with-custom-server-typescript-error",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "ts-node --project tsconfig.server.json server/index.ts",
     "build:server": "tsc --project tsconfig.server.json",
@@ -15,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "next": "^9.2.1",
+    "next": "9.5.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
